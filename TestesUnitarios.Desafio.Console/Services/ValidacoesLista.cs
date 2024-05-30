@@ -1,3 +1,4 @@
+
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesLista
@@ -20,7 +21,7 @@ namespace TestesUnitarios.Desafio.Console.Services
             return listaMultiplicada;
         }
 
-        public int RetornarMaiorNumeroLista(List<int> lista)
+        public int RetornarMaiorNumeroLista(List<int> lista, int resultadoMaiorDaLista)
         {
             return lista.Max();
         }
@@ -28,6 +29,16 @@ namespace TestesUnitarios.Desafio.Console.Services
         public int RetornarMenorNumeroLista(List<int> lista)
         {
             return lista.Min();
+        }
+
+        public List<int> MultiplicarNumerosLista(List<int> lista, List<int> resultadoEsperado)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<int> MultiplicarNumerosLista(List<int> lista)
+        {
+            throw new NotImplementedException();
         }
     }
 }
